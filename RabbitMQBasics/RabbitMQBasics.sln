@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQBasics.Publisher", "RabbitMQBasics.Publisher\RabbitMQBasics.Publisher.csproj", "{DDAFDF29-E8D0-4C7A-B876-20E8E44C681F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQBasics.Publisher", "RabbitMQBasics.Publisher\RabbitMQBasics.Publisher.csproj", "{DDAFDF29-E8D0-4C7A-B876-20E8E44C681F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQBasics.Subscriber", "RabbitMQBasics.Subscriber\RabbitMQBasics.Subscriber.csproj", "{C80FE1A9-F068-43E8-9636-E19438225A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQBasics.Subscriber", "RabbitMQBasics.Subscriber\RabbitMQBasics.Subscriber.csproj", "{C80FE1A9-F068-43E8-9636-E19438225A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQBasics.FanoutExchange.Publisher", "RabbitMQBasics.FanoutExchange.Publisher\RabbitMQBasics.FanoutExchange.Publisher.csproj", "{84A89E88-45BC-42C5-B117-0A8145DB6616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQBasics.FanoutExchange.Subscriber", "RabbitMQBasics.FanoutExchange.Subscriber\RabbitMQBasics.FanoutExchange.Subscriber\RabbitMQBasics.FanoutExchange.Subscriber.csproj", "{C27D4601-BD62-4ACD-8CB4-33A416E5E0ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C80FE1A9-F068-43E8-9636-E19438225A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C80FE1A9-F068-43E8-9636-E19438225A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C80FE1A9-F068-43E8-9636-E19438225A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A89E88-45BC-42C5-B117-0A8145DB6616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A89E88-45BC-42C5-B117-0A8145DB6616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A89E88-45BC-42C5-B117-0A8145DB6616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A89E88-45BC-42C5-B117-0A8145DB6616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27D4601-BD62-4ACD-8CB4-33A416E5E0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27D4601-BD62-4ACD-8CB4-33A416E5E0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27D4601-BD62-4ACD-8CB4-33A416E5E0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27D4601-BD62-4ACD-8CB4-33A416E5E0ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
